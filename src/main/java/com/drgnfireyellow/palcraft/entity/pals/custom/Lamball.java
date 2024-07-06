@@ -18,9 +18,12 @@ import software.bernie.geckolib.core.animatable.instance.SingletonAnimatableInst
 import software.bernie.geckolib.core.animation.*;
 import software.bernie.geckolib.core.object.PlayState;
 
-public class Lamball extends AnimalEntity implements GeoEntity {
+import java.util.UUID;
+
+public class Lamball extends Pal implements GeoEntity {
 
     private AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
+
 
     public Lamball(EntityType<? extends AnimalEntity> entityType, World world) {
         super(entityType, world);

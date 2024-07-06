@@ -25,6 +25,6 @@
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": "${minecraft_version}",
-    "geckolib": "4.4.6"
+    "geckolib": ">=4.4.6  <4.5.0"
   }
 }
